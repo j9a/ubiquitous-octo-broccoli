@@ -1,5 +1,6 @@
 from random import randint
-n = 100
+import sys
+n = int(sys.argv[1])
 a = []
 
 for i in range (0,n):
